@@ -48,18 +48,18 @@ functions, and basic Linux commands.
 ### A. Basic scripting
 
 -   [ :white_check_mark: ] **1**[ Write a script to print your name, hostname, and current
-    date. ](/home/himanshu/Documents/linux_practice/scripts/beginners/script1.sh)
--   [ :white_check_mark: ] **2** [ Write a script to check whether a number is positive, negative, or zero. ](/home/himanshu/Documents/linux_practice/scripts/beginners/script2.sh)
--   [ :white_check_mark: ] **3** [Write a script to check whether a number is even or odd.](/home/himanshu/Documents/linux_practice/scripts/beginners/script3.sh)
--   [ :white_check_mark: ] **4**  [Write a script to find the largest of three numbers.](/home/himanshu/Documents/linux_practice/scripts/beginners/script4.sh)
--   [ :white_check_mark: ] **5** [Write a script to calculate the factorial of a number.](/home/himanshu/Documents/linux_practice/scripts/beginners/script5.sh)
--   [ :white_check_mark: ] **6** [Write a script to reverse a given string.](/home/himanshu/Documents/linux_practice/scripts/beginners/script6.sh)
--   [ :white_check_mark: ] **7** [Write a script to check whether a string is a palindrome.](/home/himanshu/Documents/linux_practice/scripts/beginners/script7.sh)
+    date. ](bash-practice/beginners/basic-scripting/script1.sh)
+-   [ :white_check_mark: ] **2** [ Write a script to check whether a number is positive, negative, or zero. ](bash-practice/beginners/basic-scripting/script2.sh)
+-   [ :white_check_mark: ] **3** [Write a script to check whether a number is even or odd.](bash-practice/beginners/basic-scripting/script3.sh)
+-   [ :white_check_mark: ] **4**  [Write a script to find the largest of three numbers.](bash-practice/beginners/basic-scripting/script4.sh)
+-   [ :white_check_mark: ] **5** [Write a script to calculate the factorial of a number.](bash-practice/beginners/basic-scripting/script5.sh)
+-   [ :white_check_mark: ] **6** [Write a script to reverse a given string.](bash-practice/beginners/basic-scripting/script6.sh)
+-   [ :white_check_mark: ] **7** [Write a script to check whether a string is a palindrome.](bash-practice/beginners/basic-scripting/script7.sh)
 -   [ :white_check_mark: ] **8** [Write a script to count the number of characters in a
-    string.](/home/himanshu/Documents/linux_practice/scripts/beginners/script8.sh)
--   [ :white_check_mark: ] **9** [Write a script to convert lowercase text into uppercase.](/home/himanshu/Documents/linux_practice/scripts/beginners/script9.sh)
+    string.](bash-practice/beginners/basic-scripting/script8.sh)
+-   [ :white_check_mark: ] **9** [Write a script to convert lowercase text into uppercase.](bash-practice/beginners/basic-scripting/script9.sh)
 -   [ :white_check_mark: ] **10** [Write a script to calculate the sum of numbers from 1 to
-    N.](/home/himanshu/Documents/linux_practice/scripts/beginners/script10.sh)
+    N.](bash-practice/beginners/basic-scripting/script10.sh)
 
 ### B. File and directory management
 
