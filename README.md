@@ -47,26 +47,26 @@ functions, and basic Linux commands.
 
 ### A. Basic scripting
 
--   [ :white_check_mark: ] **1**[ Write a script to print your name, hostname, and current
+-   :white_check_mark: **1**[ Write a script to print your name, hostname, and current
     date. ](bash-practice/beginners/basic-scripting/script1.sh)
--   [ :white_check_mark: ] **2** [ Write a script to check whether a number is positive, negative, or zero. ](bash-practice/beginners/basic-scripting/script2.sh)
--   [ :white_check_mark: ] **3** [Write a script to check whether a number is even or odd.](bash-practice/beginners/basic-scripting/script3.sh)
--   [ :white_check_mark: ] **4**  [Write a script to find the largest of three numbers.](bash-practice/beginners/basic-scripting/script4.sh)
--   [ :white_check_mark: ] **5** [Write a script to calculate the factorial of a number.](bash-practice/beginners/basic-scripting/script5.sh)
--   [ :white_check_mark: ] **6** [Write a script to reverse a given string.](bash-practice/beginners/basic-scripting/script6.sh)
--   [ :white_check_mark: ] **7** [Write a script to check whether a string is a palindrome.](bash-practice/beginners/basic-scripting/script7.sh)
--   [ :white_check_mark: ] **8** [Write a script to count the number of characters in a
+-   :white_check_mark: **2** [ Write a script to check whether a number is positive, negative, or zero. ](bash-practice/beginners/basic-scripting/script2.sh)
+-   :white_check_mark: **3** [Write a script to check whether a number is even or odd.](bash-practice/beginners/basic-scripting/script3.sh)
+-   :white_check_mark: **4**  [Write a script to find the largest of three numbers.](bash-practice/beginners/basic-scripting/script4.sh)
+-   :white_check_mark: **5** [Write a script to calculate the factorial of a number.](bash-practice/beginners/basic-scripting/script5.sh)
+-   :white_check_mark: **6** [Write a script to reverse a given string.](bash-practice/beginners/basic-scripting/script6.sh)
+-   :white_check_mark: **7** [Write a script to check whether a string is a palindrome.](bash-practice/beginners/basic-scripting/script7.sh)
+-   :white_check_mark: **8** [Write a script to count the number of characters in a
     string.](bash-practice/beginners/basic-scripting/script8.sh)
--   [ :white_check_mark: ] **9** [Write a script to convert lowercase text into uppercase.](bash-practice/beginners/basic-scripting/script9.sh)
--   [ :white_check_mark: ] **10** [Write a script to calculate the sum of numbers from 1 to
+-   :white_check_mark: **9** [Write a script to convert lowercase text into uppercase.](bash-practice/beginners/basic-scripting/script9.sh)
+-   :white_check_mark: **10** [Write a script to calculate the sum of numbers from 1 to
     N.](bash-practice/beginners/basic-scripting/script10.sh)
 
 ### B. File and directory management
 
--   [ ] **11.** Check whether a file exists.
--   [ ] **12.** Check whether a directory exists.
--   [ ] **13.** Create a directory if it does not exist.
--   [ ] **14.** Find all `.log` files in a directory.
+-   :white_check_mark: **11.** [Check whether a file exists.](bash-practice/beginners/files-and-directories/script1.sh)
+-   :white_check_mark: **12.** [Check whether a directory exists.](bash-practice/beginners/files-and-directories/script2.sh)
+-   :white_check_mark: **13.** [Create a directory if it does not exist.](bash-practice/beginners/files-and-directories/script3.sh)
+-   :white_check_mark: **14.** [Find all `.log` files in a directory.](bash-practice/beginners/files-and-directories/script4.sh)
 -   [ ] **15.** Count the number of files in a directory.
 -   [ ] **16.** Check whether a file has read, write, and execute
     permissions.
@@ -263,71 +263,6 @@ in production environments.
 
 ------------------------------------------------------------------------
 
-## Recommended coding standards
-
-Apply these standards to every script, especially from the intermediate
-level onward.
-
-  Area             Recommended standard
-  ---------------- -----------------------------------------------
-  Shebang          `#!/usr/bin/env bash`
-  Variables        Use meaningful names
-  Input            Validate user input and arguments
-  Error handling   Handle command failures explicitly
-  Functions        Extract reusable logic into functions
-  Logging          Include timestamps and severity levels
-  Exit codes       Return appropriate success/failure codes
-  Testing          Test successful and failure scenarios
-  Quality          Run [ShellCheck](https://www.shellcheck.net/)
-
-### Production-readiness checklist
-
-Before considering a script complete, check:
-
--   [ ] It handles missing or invalid arguments.
--   [ ] It handles missing files, directories, and commands.
--   [ ] It checks command exit codes.
--   [ ] It quotes variables safely.
--   [ ] It uses predictable exit codes.
--   [ ] It logs useful diagnostic information.
--   [ ] It cleans up temporary files.
--   [ ] It avoids destructive actions without validation.
--   [ ] It has been tested with normal, edge, and failure inputs.
--   [ ] It passes ShellCheck, or any remaining warnings are understood.
-
-### Example: turning a basic disk check into a production-ready script
-
-Instead of only printing disk usage, improve the script so that it:
-
-1.  Accepts a disk-usage threshold as a command-line argument.
-2.  Checks all relevant mounted filesystems.
-3.  Excludes pseudo-filesystems such as `proc`, `sysfs`, and `tmpfs`
-    where appropriate.
-4.  Alerts when a filesystem crosses the configured threshold.
-5.  Logs the affected mount point and utilization.
-6.  Returns a non-zero exit code when a critical threshold is crossed.
-
-------------------------------------------------------------------------
-
-## 30-day practice plan
-
-  ------------------------------------------------------------------------
-  Week                                     Questions Focus
-  --------------------- ---------------------------- ---------------------
-  Week 1                                       1--25 Bash fundamentals
-
-  Week 2                                      26--60 Linux administration,
-                                                     monitoring, logs,
-                                                     networking, and
-                                                     storage
-
-  Week 3                                      61--90 Advanced automation
-                                                     and security
-
-  Week 4                                     91--110 Production incident
-                                                     simulations
-  ------------------------------------------------------------------------
-
 **Daily routine:**
 
 1.  Select 2--3 questions.
@@ -339,20 +274,15 @@ Instead of only printing disk usage, improve the script so that it:
 
 ## Progress tracker
 
-Use the checkboxes in each section to track completed challenges. You
-can also track your progress with this summary:
+  | Level               |     Total    | Completed
+  | ------------------  | ---------    | ---------
+  | Beginner             |      25     |       0
+  | Intermediate         |      35     |       0
+  | Advanced             |      30     |       0
+  | Production / SRE     |      20     |       0
+  | **Total**            | **110**     |   **0**
 
-  Level                  Total   Completed
-  ------------------ --------- -----------
-  Beginner                  25           0
-  Intermediate              35           0
-  Advanced                  30           0
-  Production / SRE          20           0
-  **Total**            **110**       **0**
-
-## Suggested repository structure
-
-As your practice grows, organize your solutions like this:
+## repository structure
 
 ``` text
 bash-practice/
@@ -376,13 +306,3 @@ bash-practice/
 └── scripts/
     └── common-functions.sh
 ```
-
-## Final advice
-
-Do not rush through all 110 questions. A well-written script with input
-validation, error handling, logging, and testing is more valuable than
-several copied scripts.
-
-Prioritize the production/SRE exercises after building a solid
-foundation. They will help you practise the kind of automation and
-troubleshooting expected in DevOps, DevSecOps, and SRE roles.
