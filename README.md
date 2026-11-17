@@ -276,11 +276,11 @@ in production environments.
 
   | Level               |     Total    | Completed
   | ------------------  | ---------    | ---------
-  | Beginner             |      25     |       0
+  | Beginner             |      25     |       14
   | Intermediate         |      35     |       0
   | Advanced             |      30     |       0
   | Production / SRE     |      20     |       0
-  | **Total**            | **110**     |   **0**
+  | **Total**            | **110**     |   **14**
 
 ## repository structure
 
