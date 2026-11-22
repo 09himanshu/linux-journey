@@ -44,37 +44,22 @@ auditing, and deployment workflows.
 
 **Focus:** Variables, conditions, loops, user input, operators,
 functions, and basic Linux commands.
-
-### A. Basic scripting
-
--   :white_check_mark: **1**[ Write a script to print your name, hostname, and current
-    date. ](bash-practice/beginners/basic-scripting/script1.sh)
--   :white_check_mark: **2** [ Write a script to check whether a number is positive, negative, or zero. ](bash-practice/beginners/basic-scripting/script2.sh)
--   :white_check_mark: **3** [Write a script to check whether a number is even or odd.](bash-practice/beginners/basic-scripting/script3.sh)
--   :white_check_mark: **4**  [Write a script to find the largest of three numbers.](bash-practice/beginners/basic-scripting/script4.sh)
--   :white_check_mark: **5** [Write a script to calculate the factorial of a number.](bash-practice/beginners/basic-scripting/script5.sh)
--   :white_check_mark: **6** [Write a script to reverse a given string.](bash-practice/beginners/basic-scripting/script6.sh)
--   :white_check_mark: **7** [Write a script to check whether a string is a palindrome.](bash-practice/beginners/basic-scripting/script7.sh)
--   :white_check_mark: **8** [Write a script to count the number of characters in a
-    string.](bash-practice/beginners/basic-scripting/script8.sh)
--   :white_check_mark: **9** [Write a script to convert lowercase text into uppercase.](bash-practice/beginners/basic-scripting/script9.sh)
--   :white_check_mark: **10** [Write a script to calculate the sum of numbers from 1 to
+practice/beginners/basic-scripting/script9.sh)
+-   :white_check_mark: [Write a script to calculate the sum of numbers from 1 to
     N.](bash-practice/beginners/basic-scripting/script10.sh)
 
-### B. File and directory management
+### B. File and directory managementCopy a file and add the current date to its filename.
 
--   :white_check_mark: **11.** [Check whether a file exists.](bash-practice/beginners/files-and-directories/script1.sh)
--   :white_check_mark: **12.** [Check whether a directory exists.](bash-practice/beginners/files-and-directories/script2.sh)
--   :white_check_mark: **13.** [Create a directory if it does not exist.](bash-practice/beginners/files-and-directories/script3.sh)
--   :white_check_mark: **14.** [Find all `.log` files in a directory.](bash-practice/beginners/files-and-directories/script4.sh)
--   [ ] **15.** Count the number of files in a directory.
--   [ ] **16.** Check whether a file has read, write, and execute
-    permissions.
--   [ ] **17.** Create 10 directories using a loop.
--   [ ] **18.** Find files larger than 100 MB.
--   [ ] **19.** Delete `.tmp` files older than 7 days in a test
-    directory.
--   [ ] **20.** Copy a file and add the current date to its filename.
+-   :white_check_mark: [Check whether a file exists.](bash-practice/beginners/files-and-directories/script1.sh)
+-   :white_check_mark: [Check whether a directory exists.](bash-practice/beginners/files-and-directories/script2.sh)
+-   :white_check_mark: [Create a directory if it does not exist.](bash-practice/beginners/files-and-directories/script3.sh)
+-   :white_check_mark: [Find all `.log` files in a directory.](bash-practice/beginners/files-and-directories/script4.sh)
+-   :white_check_mark: [Count the number of files in a directory.](bash-practice/beginners/files-and-directories/script5.sh)
+-   :white_check_mark: [Check whether a file has read, write, and execute permissions.](bash-practice/beginners/files-and-directories/script6.sh)
+-   :white_check_mark: [Create 10 directories using a loop.](bash-practice/beginners/files-and-directories/script7.sh)
+-   :white_check_mark: [Find files larger than 100 MB.](bash-practice/beginners/files-and-directories/script8.sh)
+-   :white_check_mark: [Delete `.tmp` files older than 7 days in a test directory.](bash-practice/beginners/files-and-directories/script9.sh)
+-   :white_check_mark: [Copy a file and add the current date to its filename.](bash-practice/beginners/files-and-directories/script10.sh)
 
 ### C. Linux administration basics
 
@@ -276,11 +261,11 @@ in production environments.
 
   | Level               |     Total    | Completed
   | ------------------  | ---------    | ---------
-  | Beginner             |      25     |       0
+  | Beginner             |      25     |       20
   | Intermediate         |      35     |       0
   | Advanced             |      30     |       0
   | Production / SRE     |      20     |       0
-  | **Total**            | **110**     |   **0**
+  | **Total**            | **110**     |   **20**
 
 ## repository structure
 
