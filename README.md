@@ -25,7 +25,7 @@ auditing, and deployment workflows.
                                                      files, directories,
                                                      basic Linux commands
 
-  Intermediate                                26--60 Functions, system
+  Intermediate                repository                26--60 Functions, system
                                                      monitoring, logs,
                                                      networking, storage,
                                                      user management
@@ -42,13 +42,22 @@ auditing, and deployment workflows.
 
 ## Level 1 -- Beginner (25 questions)
 
-**Focus:** Variables, conditions, loops, user input, operators,
-functions, and basic Linux commands.
-practice/beginners/basic-scripting/script9.sh)
--   :white_check_mark: [Write a script to calculate the sum of numbers from 1 to
-    N.](bash-practice/beginners/basic-scripting/script10.sh)
+**Focus:** Variables, conditions, loops, user input, operators, functions, and basic Linux commands. practice/beginners/basic-scripting/script9.sh)
 
-### B. File and directory managementCopy a file and add the current date to its filename.
+### A. Basic scripting
+
+-   :white_check_mark: [ Write a script to print your name, hostname, and current date. ](bash-practice/beginners/basic-scripting/script1.sh)
+-   :white_check_mark: [ Write a script to check whether a number is positive, negative, or zero. ](bash-practice/beginners/basic-scripting/script2.sh)
+-   :white_check_mark: [Write a script to check whether a number is even or odd.](bash-practice/beginners/basic-scripting/script3.sh)
+-   :white_check_mark: [Write a script to find the largest of three numbers.](bash-practice/beginners/basic-scripting/script4.sh)
+-   :white_check_mark: [Write a script to calculate the factorial of a number.](bash-practice/beginners/basic-scripting/script5.sh)
+-   :white_check_mark: [Write a script to reverse a given string.](bash-practice/beginners/basic-scripting/script6.sh)
+-   :white_check_mark: [Write a script to check whether a string is a palindrome.](bash-practice/beginners/basic-scripting/script7.sh)
+-   :white_check_mark: [Write a script to count the number of characters in a string.](bash-practice/beginners/basic-scripting/script8.sh)
+-   :white_check_mark: [Write a script to convert lowercase text into uppercase.](bash-practice/beginners/basic-scripting/script9.sh)
+-   :white_check_mark: [Write a script to calculate the sum of numbers from 1 to N.](bash-practice/beginners/basic-scripting/script10.sh)
+
+### B. File and directory management: Copy a file and add the current date to its filename.
 
 -   :white_check_mark: [Check whether a file exists.](bash-practice/beginners/files-and-directories/script1.sh)
 -   :white_check_mark: [Check whether a directory exists.](bash-practice/beginners/files-and-directories/script2.sh)
@@ -267,7 +276,7 @@ in production environments.
   | Production / SRE     |      20     |       0
   | **Total**            | **110**     |   **20**
 
-## repository structure
+## Repository structure
 
 ``` text
 bash-practice/
